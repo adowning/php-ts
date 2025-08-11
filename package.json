@@ -1,0 +1,23 @@
+{
+  "name": "aladdin-sorcerer-test",
+  "version": "1.0.0",
+  "description": "Test environment for Aladdin & Sorcerer slot game",
+  "main": "test-server.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun run test-server.ts",
+    "test": "bun test",
+    "dev": "bun --watch bun-server.ts"
+  },
+  "dependencies": {
+    "@types/bun": "latest",
+    "bun-types": "^1.2.19",
+    "sqlite": "latest",
+    "redis": "^4.6.13",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "typescript": "^5.3.3"
+  }
+}
